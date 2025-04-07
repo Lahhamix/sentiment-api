@@ -41,7 +41,7 @@ sentiment-api/
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/your-username/sentiment-api.git
+git clone https://github.com/Lahhamix/sentiment-api.git
 cd sentiment-api
 ```
 

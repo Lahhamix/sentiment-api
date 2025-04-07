@@ -20,3 +20,6 @@ def predict_sentiment(data: TextInput):
     prediction = model.predict([data.text])[0]
     sentiment = "positive" if prediction == 1 else "negative"
     return {"input": data.text, "sentiment": sentiment}
+@app.get("/health")
+def health_check():
+    return {"status": "API is up and running"}
